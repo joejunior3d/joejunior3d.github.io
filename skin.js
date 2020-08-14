@@ -2409,7 +2409,7 @@ function pano2vrSkin(player,base) {
 					me._map_1.ggHMarkerAnchorOffset = 20;
 					me._map_1.ggVMarkerAnchorOffset = 40;
 					var marker = document.createElement('img');
-					marker.setAttribute('src', basePath + 'images/_ggMapPin.png');
+					marker.setAttribute('src', basePath + 'images/ggmappin.png');
 					marker.setAttribute('title', player.getNodeTitle(id));
 					marker.style['width'] = '40px';
 					marker.style['width'] = '40px';
