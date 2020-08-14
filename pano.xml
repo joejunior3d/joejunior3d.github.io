@@ -23,7 +23,7 @@
       </polyhotspot>
     </hotspots>
     <media>
-      <sound loop="0" pansize="90.000" id="Element01" field="90.000" tiltsize="10.000" tilt="-0.220" nodechangekeep="0" pan="-196.210" startmutedmobile="0" level="1.000" mode="5" ambientlevel="0.000">
+      <sound loop="99" pansize="90.000" id="Element01" field="90.000" tiltsize="10.000" tilt="-0.220" nodechangekeep="0" pan="-196.210" startmutedmobile="0" level="1.000" mode="5" ambientlevel="0.000">
         <source url="media/newmorning-tracktribe.mp3"/>
       </sound>
     </media>
