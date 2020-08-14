@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 6.0.2/17253
 // Filename: silhouette_cardboard_celular.ggsk
-// Generated sex ago 14 13:41:11 2020
+// Generated sex ago 14 15:39:44 2020
 
 function pano2vrSkin(player,base) {
 	player.addVariable('ht_ani', 2, false);
@@ -17,6 +17,7 @@ function pano2vrSkin(player,base) {
 	player.addVariable('category_visible', 2, false);
 	player.addVariable('node_visible', 2, false);
 	player.addVariable('vis_loader', 2, true);
+	player.addVariable('PlayMedia', 2, true);
 	var me=this;
 	var skin=this;
 	var flag=false;
@@ -2865,7 +2866,7 @@ function pano2vrSkin(player,base) {
 					me._map_1.ggHMarkerAnchorOffset = 20;
 					me._map_1.ggVMarkerAnchorOffset = 40;
 					var marker = document.createElement('img');
-					marker.setAttribute('src', basePath + 'images/ggmappin.png');
+					marker.setAttribute('src', basePath + 'images/_ggMapPin.png');
 					marker.setAttribute('title', player.getNodeTitle(id));
 					marker.style['width'] = '40px';
 					marker.style['width'] = '40px';
