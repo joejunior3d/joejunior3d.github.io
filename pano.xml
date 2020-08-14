@@ -1,390 +1,390 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tour appversion="6.0.2" start="node1" apprev="17253">
   <panorama id="node1" hideabout="1">
-    <input overlap="1" levelingpitch="0" levelbias="0.400" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" width="1000" levelbiashidpi="1.000" levelingroll="0" leveltilesize="510" height="1000">
-      <level preload="0" width="1000" predecode="0" height="1000"/>
-      <level preload="1" width="500" predecode="1" height="500"/>
-      <preview strip="1" color="0x808080"/>
+    <input levelbias="0.400" overlap="1" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1000" width="1000" leveltilesize="510" levelbiashidpi="1.000" levelingroll="0" levelingpitch="0">
+      <level preload="1" height="1000" predecode="0" width="1000"/>
+      <level preload="1" height="500" predecode="1" width="500"/>
+      <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start pan="119.71" tilt="0" fov="70" projection="4"/>
-      <flyin pan="0" tilt="-90" fov="170" projection="9"/>
+      <start fov="70" pan="119.71" projection="4" tilt="0"/>
+      <flyin fov="170" pan="0" projection="9" tilt="-90"/>
       <min fovpixel="2" pan="0" tilt="-90"/>
-      <max pan="360" scaletofit="1" fovfisheye="360" tilt="90" fovstereographic="270" fov="120"/>
+      <max fov="120" fovstereographic="270" scaletofit="1" pan="360" fovfisheye="360" tilt="90"/>
     </view>
-    <userdata datetime="08/06/2018 23:13" latitude="" copyright="" tags="DESCOMPRESSO|MAPAS" source="" author="" comment="" info="" title="DESCOMPRESSÃO" description="" longitude="" customnodeid="">
-      <mapcoords x="0.4933470764617691" y_floorplan_percent="43.99224806201551" x_floorplan_percent="17.54122938530735" y="-0.4785888305847076" mapid="FloorPlan01"/>
+    <userdata latitude="" customnodeid="" copyright="" author="" datetime="08/06/2018 23:13" title="DESCOMPRESSÃO" description="" tags="DESCOMPRESSO|MAPAS" info="" comment="" longitude="" source="">
+      <mapcoords y="-0.4785888305847076" x_floorplan_percent="17.54122938530735" mapid="FloorPlan01" y_floorplan_percent="43.99224806201551" x="0.4933470764617691"/>
     </userdata>
-    <hotspots width="180" wordwrap="1" height="0">
-      <label backgroundalpha="0.5019607843137255" background="1" bordercolor="0x000000" borderradius="1" width="180" wordwrap="1" backgroundcolor="0x808080" borderalpha="1" border="0" textalpha="1" textcolor="0xffffff" enabled="1" height="0"/>
-      <polystyle backgroundalpha="0.1176470588235294" bordercolor="0x00aaff" backgroundcolor="0x0000ff" borderalpha="1" handcursor="1" mode="3"/>
-      <polyhotspot id="Poly01" url="{node2}" title="ESPAÇO CARROSSEL" description="" target="0.0/0.0/70.0">
+    <hotspots wordwrap="1" height="0" width="180">
+      <label bordercolor="0x000000" backgroundcolor="0x808080" wordwrap="1" enabled="1" borderalpha="1" borderradius="1" height="0" textalpha="1" backgroundalpha="0.5019607843137255" width="180" background="1" textcolor="0xffffff" border="0"/>
+      <polystyle bordercolor="0x00aaff" backgroundcolor="0x0000ff" borderalpha="1" mode="3" handcursor="1" backgroundalpha="0.1176470588235294"/>
+      <polyhotspot title="ESPAÇO CARROSSEL" url="{node2}" description="" target="0.0/0.0/70.0" id="Poly01">
         <polystring>-161.59/-36.77|-150.15/-24.39|-158.65/-18.95|-173.57/-0.45|-183.3/16.43|-209.15/14.73|-215.32/0.27|-225.56/-15.57|-229.59/-18.69|-223.26/-30.16</polystring>
       </polyhotspot>
     </hotspots>
     <media>
-      <sound startmutedmobile="0" field="90.000" id="Element01" pan="-280.660" pansize="10.000" tilt="-5.770" nodechangekeep="0" tiltsize="10.000" loop="0" level="0.200" ambientlevel="0.000" mode="6">
+      <sound ambientlevel="0.000" tiltsize="10.000" level="0.200" startmutedmobile="0" mode="6" nodechangekeep="0" pansize="10.000" loop="0" field="90.000" id="Element01" pan="-280.660" tilt="-5.770">
         <source url="media/New Morning - TrackTribe.mp3"/>
       </sound>
     </media>
-    <transition blendtime="0.2" zoomin="2" softedge="0" zoomoutpause="0" zoomfov="50" zoomout="2" zoomspeed="2" enabled="1" type="crossdissolve" blendcolor="0x000000"/>
-    <autorotate noderandom="1" nodedelay="0.00" returntohorizon="0.000" startloaded="0" delay="5.00" useanimation="0" enabled="1" speed="0.050"/>
-    <soundstransition crossfade="1" transitiontime="2" enabled="1"/>
+    <transition zoomoutpause="0" softedge="0" enabled="1" zoomout="2" zoomfov="50" type="crossdissolve" zoomin="2" blendcolor="0x000000" zoomspeed="2" blendtime="0.2"/>
+    <autorotate noderandom="1" useanimation="0" enabled="1" startloaded="0" speed="0.050" delay="5.00" returntohorizon="0.000" nodedelay="0.00"/>
+    <soundstransition enabled="1" crossfade="1" transitiontime="2"/>
     <flyintransition enabled="1" speed="2.00"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
-    <control lockedkeyboardzoom="0" rubberband="0" contextprojections="0" simulatemass="1" lockedkeyboard="0" lockedwheel="0" sensitivity="8" dblclickfullscreen="0" invertcontrol="1" contextfullscreen="0" invertwheel="0" lockedmouse="0" hideabout="1" speedwheel="1"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control rubberband="0" lockedwheel="0" lockedmouse="0" invertwheel="0" simulatemass="1" contextprojections="0" dblclickfullscreen="0" lockedkeyboardzoom="0" contextfullscreen="0" speedwheel="1" sensitivity="8" invertcontrol="1" hideabout="1" lockedkeyboard="0"/>
   </panorama>
   <panorama id="node2" hideabout="1">
-    <input overlap="1" levelingpitch="0" levelbias="0.400" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" width="1000" levelbiashidpi="1.000" levelingroll="0" leveltilesize="510" height="1000">
-      <level preload="0" width="1000" predecode="0" height="1000"/>
-      <level preload="1" width="500" predecode="1" height="500"/>
-      <preview strip="1" color="0x808080"/>
+    <input levelbias="0.400" overlap="1" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1000" width="1000" leveltilesize="510" levelbiashidpi="1.000" levelingroll="0" levelingpitch="0">
+      <level preload="1" height="1000" predecode="0" width="1000"/>
+      <level preload="1" height="500" predecode="1" width="500"/>
+      <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="225" fovmode="0">
-      <start pan="0" tilt="0" fov="70" projection="4"/>
-      <flyin pan="0" tilt="-90" fov="170" projection="9"/>
+      <start fov="70" pan="0" projection="4" tilt="0"/>
+      <flyin fov="170" pan="0" projection="9" tilt="-90"/>
       <min fovpixel="2" pan="0" tilt="-90"/>
-      <max pan="360" scaletofit="1" fovfisheye="360" tilt="90" fovstereographic="270" fov="120"/>
+      <max fov="120" fovstereographic="270" scaletofit="1" pan="360" fovfisheye="360" tilt="90"/>
     </view>
-    <userdata datetime="09/06/2018 01:02" latitude="" copyright="" tags="DESCOMPRESSO" source="" author="" comment="" info="" title="CARROSSEL" description="" longitude="" customnodeid="">
-      <mapcoords x="0.8876030734632684" y_floorplan_percent="53.48837209302325" x_floorplan_percent="31.5592203898051" y="-0.5818965517241379" mapid="FloorPlan01"/>
+    <userdata latitude="" customnodeid="" copyright="" author="" datetime="09/06/2018 01:02" title="CARROSSEL" description="" tags="DESCOMPRESSO" info="" comment="" longitude="" source="">
+      <mapcoords y="-0.5818965517241379" x_floorplan_percent="31.5592203898051" mapid="FloorPlan01" y_floorplan_percent="53.48837209302325" x="0.8876030734632684"/>
     </userdata>
-    <hotspots width="180" wordwrap="1" height="0">
-      <label backgroundalpha="0.5019607843137255" background="1" bordercolor="0x000000" borderradius="1" width="180" wordwrap="1" backgroundcolor="0x808080" borderalpha="1" border="0" textalpha="1" textcolor="0xffffff" enabled="1" height="0"/>
-      <polystyle backgroundalpha="0.1176470588235294" bordercolor="0x00aaff" backgroundcolor="0x0000ff" borderalpha="1" handcursor="1" mode="3"/>
-      <polyhotspot id="Poly01" url="{node1}" title="ESPAÇO DESCOMPRESSÃO" description="" target="163.9/-1.4/70.0">
+    <hotspots wordwrap="1" height="0" width="180">
+      <label bordercolor="0x000000" backgroundcolor="0x808080" wordwrap="1" enabled="1" borderalpha="1" borderradius="1" height="0" textalpha="1" backgroundalpha="0.5019607843137255" width="180" background="1" textcolor="0xffffff" border="0"/>
+      <polystyle bordercolor="0x00aaff" backgroundcolor="0x0000ff" borderalpha="1" mode="3" handcursor="1" backgroundalpha="0.1176470588235294"/>
+      <polyhotspot title="ESPAÇO DESCOMPRESSÃO" url="{node1}" description="" target="163.9/-1.4/70.0" id="Poly01">
         <polystring>-186.16/14.04|-185.31/-34.01|-82.02/-32.68|-82.66/13.47|-82.66/13.47</polystring>
       </polyhotspot>
-      <polyhotspot id="Poly02" url="{node3}" title="ESPAÇO MERCADO CARACOL" description="" target="0.0/0.0/70.0">
+      <polyhotspot title="ESPAÇO MERCADO CARACOL" url="{node3}" description="" target="0.0/0.0/70.0" id="Poly02">
         <polystring>-317.41/7.63|-342.6/6.51|-342.36/-7.63|-338.42/-9.67|-340.03/-12.12|-337.23/-15.18|-335.73/-18.33|-317.76/-20.35</polystring>
       </polyhotspot>
-      <hotspot id="Point01" pan="-62.08" url="https://www.caracolchocolates.com.br/product-page/divinos-300g-1" tilt="-2.54" skinid="ht_url" title="Divinos 300g" description="" target="_blank"/>
+      <hotspot title="Divinos 300g" url="https://www.caracolchocolates.com.br/product-page/divinos-300g-1" description="" skinid="ht_url" target="_blank" id="Point01" pan="-62.08" tilt="-2.54"/>
     </hotspots>
     <media>
-      <sound startmutedmobile="0" field="90.000" id="Element01" pan="-4.010" pansize="10.000" tilt="-1.910" nodechangekeep="0" tiltsize="10.000" loop="0" level="0.100" ambientlevel="0.000" mode="6">
+      <sound ambientlevel="0.000" tiltsize="10.000" level="0.100" startmutedmobile="0" mode="6" nodechangekeep="0" pansize="10.000" loop="0" field="90.000" id="Element01" pan="-4.010" tilt="-1.910">
         <source url="media/Springtime Family Band - The Green Orbs.mp3"/>
       </sound>
     </media>
-    <transition blendtime="0.2" zoomin="2" softedge="0" zoomoutpause="0" zoomfov="50" zoomout="2" zoomspeed="2" enabled="1" type="crossdissolve" blendcolor="0x000000"/>
-    <autorotate noderandom="1" nodedelay="0.00" returntohorizon="0.000" startloaded="0" delay="5.00" useanimation="0" enabled="1" speed="0.050"/>
-    <soundstransition crossfade="1" transitiontime="2" enabled="1"/>
+    <transition zoomoutpause="0" softedge="0" enabled="1" zoomout="2" zoomfov="50" type="crossdissolve" zoomin="2" blendcolor="0x000000" zoomspeed="2" blendtime="0.2"/>
+    <autorotate noderandom="1" useanimation="0" enabled="1" startloaded="0" speed="0.050" delay="5.00" returntohorizon="0.000" nodedelay="0.00"/>
+    <soundstransition enabled="1" crossfade="1" transitiontime="2"/>
     <flyintransition enabled="1" speed="2.00"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
-    <control lockedkeyboardzoom="0" rubberband="0" contextprojections="0" simulatemass="1" lockedkeyboard="0" lockedwheel="0" sensitivity="8" dblclickfullscreen="0" invertcontrol="1" contextfullscreen="0" invertwheel="0" lockedmouse="0" hideabout="1" speedwheel="1"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control rubberband="0" lockedwheel="0" lockedmouse="0" invertwheel="0" simulatemass="1" contextprojections="0" dblclickfullscreen="0" lockedkeyboardzoom="0" contextfullscreen="0" speedwheel="1" sensitivity="8" invertcontrol="1" hideabout="1" lockedkeyboard="0"/>
   </panorama>
   <panorama id="node3" hideabout="1">
-    <input overlap="1" levelingpitch="0" levelbias="0.400" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" width="1000" levelbiashidpi="1.000" levelingroll="0" leveltilesize="510" height="1000">
-      <level preload="0" width="1000" predecode="0" height="1000"/>
-      <level preload="1" width="500" predecode="1" height="500"/>
-      <preview strip="1" color="0x808080"/>
+    <input levelbias="0.400" overlap="1" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1000" width="1000" leveltilesize="510" levelbiashidpi="1.000" levelingroll="0" levelingpitch="0">
+      <level preload="1" height="1000" predecode="0" width="1000"/>
+      <level preload="1" height="500" predecode="1" width="500"/>
+      <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="185" fovmode="0">
-      <start pan="0.9" tilt="0" fov="70" projection="4"/>
-      <flyin pan="0" tilt="-90" fov="170" projection="9"/>
+      <start fov="70" pan="0.9" projection="4" tilt="0"/>
+      <flyin fov="170" pan="0" projection="9" tilt="-90"/>
       <min fovpixel="2" pan="0" tilt="-90"/>
-      <max pan="360" scaletofit="1" fovfisheye="360" tilt="90" fovstereographic="270" fov="120"/>
+      <max fov="120" fovstereographic="270" scaletofit="1" pan="360" fovfisheye="360" tilt="90"/>
     </view>
-    <userdata datetime="09/06/2018 00:24" latitude="" copyright="" tags="MAPAS" source="" author="" comment="" info="" title="MERCADO CARACOL" description="" longitude="" customnodeid="">
-      <mapcoords x="1.720389805097451" y_floorplan_percent="78.10077519379846" x_floorplan_percent="61.16941529235383" y="-0.8496532983508246" mapid="FloorPlan01"/>
+    <userdata latitude="" customnodeid="" copyright="" author="" datetime="09/06/2018 00:24" title="MERCADO CARACOL" description="" tags="MAPAS" info="" comment="" longitude="" source="">
+      <mapcoords y="-0.8496532983508246" x_floorplan_percent="61.16941529235383" mapid="FloorPlan01" y_floorplan_percent="78.10077519379846" x="1.720389805097451"/>
     </userdata>
-    <hotspots width="180" wordwrap="1" height="0">
-      <label backgroundalpha="0.5019607843137255" background="1" bordercolor="0x000000" borderradius="1" width="180" wordwrap="1" backgroundcolor="0x808080" borderalpha="1" border="0" textalpha="1" textcolor="0xffffff" enabled="1" height="0"/>
-      <polystyle backgroundalpha="0.1176470588235294" bordercolor="0x00aaff" backgroundcolor="0x0000ff" borderalpha="1" handcursor="1" mode="3"/>
-      <polyhotspot id="Poly01" url="{node4}" title="ESPAÇO BIBLIOTECA" description="" target="0.0/0.0/70.0">
+    <hotspots wordwrap="1" height="0" width="180">
+      <label bordercolor="0x000000" backgroundcolor="0x808080" wordwrap="1" enabled="1" borderalpha="1" borderradius="1" height="0" textalpha="1" backgroundalpha="0.5019607843137255" width="180" background="1" textcolor="0xffffff" border="0"/>
+      <polystyle bordercolor="0x00aaff" backgroundcolor="0x0000ff" borderalpha="1" mode="3" handcursor="1" backgroundalpha="0.1176470588235294"/>
+      <polyhotspot title="ESPAÇO BIBLIOTECA" url="{node4}" description="" target="0.0/0.0/70.0" id="Poly01">
         <polystring>-340.49/8.46|-4.51/8.94|-5/-25.52|-340.49/-24.18</polystring>
       </polyhotspot>
-      <polyhotspot id="Poly02" url="{node2}" title="ESPAÇO CARROSSEL" description="" target="">
+      <polyhotspot title="ESPAÇO CARROSSEL" url="{node2}" description="" target="" id="Poly02">
         <polystring>-156.94/11.65|-229.14/8.3|-229/-21.86|-156.66/-29.25</polystring>
       </polyhotspot>
-      <hotspot id="Point01" pan="-264.55" url="https://www.caracolchocolates.com.br/product-page/alfajor" tilt="-19.18" skinid="ht_url" title="Alfajor" description="" target="_blank"/>
+      <hotspot title="Alfajor" url="https://www.caracolchocolates.com.br/product-page/alfajor" description="" skinid="ht_url" target="_blank" id="Point01" pan="-264.55" tilt="-19.18"/>
     </hotspots>
     <media>
-      <sound startmutedmobile="0" field="90.000" id="Element01" pan="-266.870" pansize="10.000" tilt="2.250" nodechangekeep="0" tiltsize="10.000" loop="0" level="0.100" ambientlevel="0.000" mode="6">
+      <sound ambientlevel="0.000" tiltsize="10.000" level="0.100" startmutedmobile="0" mode="6" nodechangekeep="0" pansize="10.000" loop="0" field="90.000" id="Element01" pan="-266.870" tilt="2.250">
         <source url="media/Jigsaw Puzzle - The Green Orbs.mp3"/>
       </sound>
     </media>
-    <transition blendtime="0.2" zoomin="2" softedge="0" zoomoutpause="0" zoomfov="50" zoomout="2" zoomspeed="2" enabled="1" type="crossdissolve" blendcolor="0x000000"/>
-    <autorotate noderandom="1" nodedelay="0.00" returntohorizon="0.000" startloaded="0" delay="5.00" useanimation="0" enabled="1" speed="0.050"/>
-    <soundstransition crossfade="1" transitiontime="2" enabled="1"/>
+    <transition zoomoutpause="0" softedge="0" enabled="1" zoomout="2" zoomfov="50" type="crossdissolve" zoomin="2" blendcolor="0x000000" zoomspeed="2" blendtime="0.2"/>
+    <autorotate noderandom="1" useanimation="0" enabled="1" startloaded="0" speed="0.050" delay="5.00" returntohorizon="0.000" nodedelay="0.00"/>
+    <soundstransition enabled="1" crossfade="1" transitiontime="2"/>
     <flyintransition enabled="1" speed="2.00"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
-    <control lockedkeyboardzoom="0" rubberband="0" contextprojections="0" simulatemass="1" lockedkeyboard="0" lockedwheel="0" sensitivity="8" dblclickfullscreen="0" invertcontrol="1" contextfullscreen="0" invertwheel="0" lockedmouse="0" hideabout="1" speedwheel="1"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control rubberband="0" lockedwheel="0" lockedmouse="0" invertwheel="0" simulatemass="1" contextprojections="0" dblclickfullscreen="0" lockedkeyboardzoom="0" contextfullscreen="0" speedwheel="1" sensitivity="8" invertcontrol="1" hideabout="1" lockedkeyboard="0"/>
   </panorama>
   <panorama id="node4" hideabout="1">
-    <input overlap="1" levelingpitch="0" levelbias="0.400" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" width="1000" levelbiashidpi="1.000" levelingroll="0" leveltilesize="510" height="1000">
-      <level preload="0" width="1000" predecode="0" height="1000"/>
-      <level preload="1" width="500" predecode="1" height="500"/>
-      <preview strip="1" color="0x808080"/>
+    <input levelbias="0.400" overlap="1" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1000" width="1000" leveltilesize="510" levelbiashidpi="1.000" levelingroll="0" levelingpitch="0">
+      <level preload="1" height="1000" predecode="0" width="1000"/>
+      <level preload="1" height="500" predecode="1" width="500"/>
+      <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="182" fovmode="0">
-      <start pan="-3.26" tilt="0" fov="70" projection="4"/>
-      <flyin pan="0" tilt="-90" fov="170" projection="9"/>
+      <start fov="70" pan="-3.26" projection="4" tilt="0"/>
+      <flyin fov="170" pan="0" projection="9" tilt="-90"/>
       <min fovpixel="2" pan="-360" tilt="-90"/>
-      <max pan="0" scaletofit="1" fovfisheye="360" tilt="90" fovstereographic="270" fov="120"/>
+      <max fov="120" fovstereographic="270" scaletofit="1" pan="0" fovfisheye="360" tilt="90"/>
     </view>
-    <userdata datetime="09/06/2018 00:29" latitude="" copyright="" tags="MAPAS" source="" author="" comment="" info="" title="BIBLIOTECA" description="" longitude="" customnodeid="">
-      <mapcoords x="2.198978635682159" y_floorplan_percent="72.28682170542635" x_floorplan_percent="78.18590704647677" y="-0.7864036731634183" mapid="FloorPlan01"/>
+    <userdata latitude="" customnodeid="" copyright="" author="" datetime="09/06/2018 00:29" title="BIBLIOTECA" description="" tags="MAPAS" info="" comment="" longitude="" source="">
+      <mapcoords y="-0.7864036731634183" x_floorplan_percent="78.18590704647677" mapid="FloorPlan01" y_floorplan_percent="72.28682170542635" x="2.198978635682159"/>
     </userdata>
-    <hotspots width="180" wordwrap="1" height="0">
-      <label backgroundalpha="0.5019607843137255" background="1" bordercolor="0x000000" borderradius="1" width="180" wordwrap="1" backgroundcolor="0x808080" borderalpha="1" border="0" textalpha="1" textcolor="0xffffff" enabled="1" height="0"/>
-      <polystyle backgroundalpha="0.1176470588235294" bordercolor="0x00aaff" backgroundcolor="0x0000ff" borderalpha="1" handcursor="1" mode="3"/>
-      <hotspot id="Point02" pan="-27.72" url="{node5}" tilt="-2.86" skinid="ht_node" title="ESPAÇO BIBLIOTECA" description="" target="99.2/-0.3/70.0"/>
-      <hotspot id="Point01" pan="-251.17" url="https://www.caracolchocolates.com.br/product-page/caixa-com-vinho-150g" tilt="-9.22" skinid="ht_url" title="Caixa com Vinho 150g" description="Chocolates finos no formato de frutos do mar, acompanhados de tablete 70% cacau, com garrafa de vinho." target="_blank"/>
-      <polyhotspot id="Poly01" url="{node6}" title="ESPAÇO BAILARINA" description="" target="-142.0/-0.1/70.0">
+    <hotspots wordwrap="1" height="0" width="180">
+      <label bordercolor="0x000000" backgroundcolor="0x808080" wordwrap="1" enabled="1" borderalpha="1" borderradius="1" height="0" textalpha="1" backgroundalpha="0.5019607843137255" width="180" background="1" textcolor="0xffffff" border="0"/>
+      <polystyle bordercolor="0x00aaff" backgroundcolor="0x0000ff" borderalpha="1" mode="3" handcursor="1" backgroundalpha="0.1176470588235294"/>
+      <hotspot title="ESPAÇO BIBLIOTECA" url="{node5}" description="" skinid="ht_node" target="99.2/-0.3/70.0" id="Point02" pan="-27.72" tilt="-2.86"/>
+      <hotspot title="Caixa com Vinho 150g" url="https://www.caracolchocolates.com.br/product-page/caixa-com-vinho-150g" description="Chocolates finos no formato de frutos do mar, acompanhados de tablete 70% cacau, com garrafa de vinho." skinid="ht_url" target="_blank" id="Point01" pan="-251.17" tilt="-9.22"/>
+      <polyhotspot title="ESPAÇO BAILARINA" url="{node6}" description="" target="-142.0/-0.1/70.0" id="Poly01">
         <polystring>-312.03/10.9|-321.08/9.61|-321.15/-24.02|-312.39/-28.22</polystring>
       </polyhotspot>
-      <polyhotspot id="Poly02" url="{node3}" title="ESPAÇO MERCADO CARACOL" description="" target="0.0/0.0/70.0">
+      <polyhotspot title="ESPAÇO MERCADO CARACOL" url="{node3}" description="" target="0.0/0.0/70.0" id="Poly02">
         <polystring>-129.57/13.32|-166.13/19.79|-165.97/-44.07|-129.63/-33.78</polystring>
       </polyhotspot>
     </hotspots>
     <media>
-      <sound startmutedmobile="0" field="90.000" id="Element01" pan="-6.780" pansize="10.000" tilt="-2.660" nodechangekeep="0" tiltsize="10.000" loop="0" level="0.100" ambientlevel="0.000" mode="6">
+      <sound ambientlevel="0.000" tiltsize="10.000" level="0.100" startmutedmobile="0" mode="6" nodechangekeep="0" pansize="10.000" loop="0" field="90.000" id="Element01" pan="-6.780" tilt="-2.660">
         <source url="media/Rising Sun - DivKid.mp3"/>
       </sound>
-      <video height="720" field="90.000" id="Element02" rotz="2.000" stretch="1.350" rotx="0.000" clickmode="0" tilt="-5.020" ambientlevel="0.000" handcursor="0" roty="28.000" fov="6.460" mode="5" nodechangekeep="0" pan="-56.110" loop="0" level="0.250" tiltsize="10.000" startmutedmobile="0" pansize="10.000" width="1280">
+      <video level="0.250" startmutedmobile="0" stretch="1.350" id="Element02" width="1280" handcursor="0" rotx="0.000" roty="28.000" ambientlevel="0.000" tiltsize="10.000" mode="5" loop="0" clickmode="0" tilt="-5.020" height="720" fov="6.460" nodechangekeep="0" rotz="2.000" field="90.000" pansize="10.000" pan="-56.110">
         <source url="media/Submarino   Caracol Chocolates.mp4"/>
       </video>
     </media>
-    <transition blendtime="0.2" zoomin="2" softedge="0" zoomoutpause="0" zoomfov="50" zoomout="2" zoomspeed="2" enabled="1" type="crossdissolve" blendcolor="0x000000"/>
-    <autorotate noderandom="1" nodedelay="0.00" returntohorizon="0.000" startloaded="0" delay="5.00" useanimation="0" enabled="1" speed="0.050"/>
-    <soundstransition crossfade="1" transitiontime="2" enabled="1"/>
+    <transition zoomoutpause="0" softedge="0" enabled="1" zoomout="2" zoomfov="50" type="crossdissolve" zoomin="2" blendcolor="0x000000" zoomspeed="2" blendtime="0.2"/>
+    <autorotate noderandom="1" useanimation="0" enabled="1" startloaded="0" speed="0.050" delay="5.00" returntohorizon="0.000" nodedelay="0.00"/>
+    <soundstransition enabled="1" crossfade="1" transitiontime="2"/>
     <flyintransition enabled="1" speed="2.00"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
-    <control lockedkeyboardzoom="0" rubberband="0" contextprojections="0" simulatemass="1" lockedkeyboard="0" lockedwheel="0" sensitivity="8" dblclickfullscreen="0" invertcontrol="1" contextfullscreen="0" invertwheel="0" lockedmouse="0" hideabout="1" speedwheel="1"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control rubberband="0" lockedwheel="0" lockedmouse="0" invertwheel="0" simulatemass="1" contextprojections="0" dblclickfullscreen="0" lockedkeyboardzoom="0" contextfullscreen="0" speedwheel="1" sensitivity="8" invertcontrol="1" hideabout="1" lockedkeyboard="0"/>
   </panorama>
   <panorama id="node5" hideabout="1">
-    <input overlap="1" levelingpitch="0" levelbias="0.400" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" width="1000" levelbiashidpi="1.000" levelingroll="0" leveltilesize="510" height="1000">
-      <level preload="0" width="1000" predecode="0" height="1000"/>
-      <level preload="1" width="500" predecode="1" height="500"/>
-      <preview strip="1" color="0x808080"/>
+    <input levelbias="0.400" overlap="1" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1000" width="1000" leveltilesize="510" levelbiashidpi="1.000" levelingroll="0" levelingpitch="0">
+      <level preload="1" height="1000" predecode="0" width="1000"/>
+      <level preload="1" height="500" predecode="1" width="500"/>
+      <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="140" fovmode="0">
-      <start pan="96.07" tilt="0" fov="70" projection="4"/>
-      <flyin pan="0" tilt="-90" fov="170" projection="9"/>
+      <start fov="70" pan="96.07" projection="4" tilt="0"/>
+      <flyin fov="170" pan="0" projection="9" tilt="-90"/>
       <min fovpixel="2" pan="0" tilt="-90"/>
-      <max pan="360" scaletofit="1" fovfisheye="360" tilt="90" fovstereographic="270" fov="120"/>
+      <max fov="120" fovstereographic="270" scaletofit="1" pan="360" fovfisheye="360" tilt="90"/>
     </view>
-    <userdata datetime="09/06/2018 02:15" latitude="" copyright="" tags="MAPAS" source="" author="" comment="" info="" title="BIBLIOTECA" description="" longitude="" customnodeid="">
-      <mapcoords x="2.614317841079461" y_floorplan_percent="81.3953488372093" x_floorplan_percent="92.95352323838081" y="-0.8854947526236882" mapid="FloorPlan01"/>
+    <userdata latitude="" customnodeid="" copyright="" author="" datetime="09/06/2018 02:15" title="BIBLIOTECA" description="" tags="MAPAS" info="" comment="" longitude="" source="">
+      <mapcoords y="-0.8854947526236882" x_floorplan_percent="92.95352323838081" mapid="FloorPlan01" y_floorplan_percent="81.3953488372093" x="2.614317841079461"/>
     </userdata>
-    <hotspots width="180" wordwrap="1" height="0">
-      <label backgroundalpha="0.5019607843137255" background="1" bordercolor="0x000000" borderradius="1" width="180" wordwrap="1" backgroundcolor="0x808080" borderalpha="1" border="0" textalpha="1" textcolor="0xffffff" enabled="1" height="0"/>
-      <polystyle backgroundalpha="0.1176470588235294" bordercolor="0x00aaff" backgroundcolor="0x0000ff" borderalpha="1" handcursor="1" mode="3"/>
-      <hotspot id="Point03" pan="-259.88" url="{node4}" tilt="-1.7" skinid="ht_node" title="ESPAÇO BIBLIOTECA" description="" target=""/>
-      <polyhotspot id="Poly01" url="{node3}" title="ESPAÇO MERCADO CARACOL" description="" target="">
+    <hotspots wordwrap="1" height="0" width="180">
+      <label bordercolor="0x000000" backgroundcolor="0x808080" wordwrap="1" enabled="1" borderalpha="1" borderradius="1" height="0" textalpha="1" backgroundalpha="0.5019607843137255" width="180" background="1" textcolor="0xffffff" border="0"/>
+      <polystyle bordercolor="0x00aaff" backgroundcolor="0x0000ff" borderalpha="1" mode="3" handcursor="1" backgroundalpha="0.1176470588235294"/>
+      <hotspot title="ESPAÇO BIBLIOTECA" url="{node4}" description="" skinid="ht_node" target="" id="Point03" pan="-259.88" tilt="-1.7"/>
+      <polyhotspot title="ESPAÇO MERCADO CARACOL" url="{node3}" description="" target="" id="Poly01">
         <polystring>-221.13/7.06|-239.65/6.65|-240.03/-18.41|-221.85/-18.63</polystring>
       </polyhotspot>
-      <polyhotspot id="Poly02" url="{node6}" title="ESPAÇO BAILARINA" description="" target="-141.3/0.1/70.0">
+      <polyhotspot title="ESPAÇO BAILARINA" url="{node6}" description="" target="-141.3/0.1/70.0" id="Poly02">
         <polystring>-294.49/7.88|-309.58/8.48|-310.15/-10.57|-304.79/-23.19|-294.55/-22.31</polystring>
       </polyhotspot>
     </hotspots>
     <media>
-      <sound startmutedmobile="0" field="90.000" id="Element01" pan="-251.060" pansize="10.000" tilt="-1.320" nodechangekeep="0" tiltsize="10.000" loop="0" level="0.100" ambientlevel="0.000" mode="6">
+      <sound ambientlevel="0.000" tiltsize="10.000" level="0.100" startmutedmobile="0" mode="6" nodechangekeep="0" pansize="10.000" loop="0" field="90.000" id="Element01" pan="-251.060" tilt="-1.320">
         <source url="media/Rising Sun - DivKid.mp3"/>
       </sound>
-      <video height="720" field="90.000" id="Element02" rotz="-2.000" stretch="1.450" rotx="0.000" clickmode="0" tilt="-10.030" ambientlevel="0.000" handcursor="0" roty="-16.000" fov="12.170" mode="1" nodechangekeep="0" pan="-165.100" loop="0" level="0.200" tiltsize="10.000" startmutedmobile="0" pansize="10.000" width="1280">
+      <video level="0.200" startmutedmobile="0" stretch="1.450" id="Element02" width="1280" handcursor="0" rotx="0.000" roty="-16.000" ambientlevel="0.000" tiltsize="10.000" mode="1" loop="0" clickmode="0" tilt="-10.030" height="720" fov="12.170" nodechangekeep="0" rotz="-2.000" field="90.000" pansize="10.000" pan="-165.100">
         <source url="media/Submarino   Caracol Chocolates.mp4"/>
       </video>
     </media>
-    <transition blendtime="0.2" zoomin="2" softedge="0" zoomoutpause="0" zoomfov="50" zoomout="2" zoomspeed="2" enabled="1" type="crossdissolve" blendcolor="0x000000"/>
-    <autorotate noderandom="1" nodedelay="0.00" returntohorizon="0.000" startloaded="0" delay="5.00" useanimation="0" enabled="1" speed="0.050"/>
-    <soundstransition crossfade="1" transitiontime="2" enabled="1"/>
+    <transition zoomoutpause="0" softedge="0" enabled="1" zoomout="2" zoomfov="50" type="crossdissolve" zoomin="2" blendcolor="0x000000" zoomspeed="2" blendtime="0.2"/>
+    <autorotate noderandom="1" useanimation="0" enabled="1" startloaded="0" speed="0.050" delay="5.00" returntohorizon="0.000" nodedelay="0.00"/>
+    <soundstransition enabled="1" crossfade="1" transitiontime="2"/>
     <flyintransition enabled="1" speed="2.00"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
-    <control lockedkeyboardzoom="0" rubberband="0" contextprojections="0" simulatemass="1" lockedkeyboard="0" lockedwheel="0" sensitivity="8" dblclickfullscreen="0" invertcontrol="1" contextfullscreen="0" invertwheel="0" lockedmouse="0" hideabout="1" speedwheel="1"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control rubberband="0" lockedwheel="0" lockedmouse="0" invertwheel="0" simulatemass="1" contextprojections="0" dblclickfullscreen="0" lockedkeyboardzoom="0" contextfullscreen="0" speedwheel="1" sensitivity="8" invertcontrol="1" hideabout="1" lockedkeyboard="0"/>
   </panorama>
   <panorama id="node6" hideabout="1">
-    <input overlap="1" levelingpitch="0" levelbias="0.400" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" width="1000" levelbiashidpi="1.000" levelingroll="0" leveltilesize="510" height="1000">
-      <level preload="0" width="1000" predecode="0" height="1000"/>
-      <level preload="1" width="500" predecode="1" height="500"/>
-      <preview strip="1" color="0x808080"/>
+    <input levelbias="0.400" overlap="1" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1000" width="1000" leveltilesize="510" levelbiashidpi="1.000" levelingroll="0" levelingpitch="0">
+      <level preload="1" height="1000" predecode="0" width="1000"/>
+      <level preload="1" height="500" predecode="1" width="500"/>
+      <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="-90" fovmode="0">
-      <start pan="-147.28" tilt="0" fov="70" projection="4"/>
-      <flyin pan="0" tilt="-90" fov="170" projection="9"/>
+      <start fov="70" pan="-147.28" projection="4" tilt="0"/>
+      <flyin fov="170" pan="0" projection="9" tilt="-90"/>
       <min fovpixel="2" pan="-360" tilt="-90"/>
-      <max pan="0" scaletofit="1" fovfisheye="360" tilt="90" fovstereographic="270" fov="120"/>
+      <max fov="120" fovstereographic="270" scaletofit="1" pan="0" fovfisheye="360" tilt="90"/>
     </view>
-    <userdata datetime="09/06/2018 03:24" latitude="" copyright="" tags="MAPAS" source="" author="" comment="" info="" title="BAILARINA" description="" longitude="" customnodeid="">
-      <mapcoords x="2.578476386806597" y_floorplan_percent="36.43410852713178" x_floorplan_percent="91.67916041979011" y="-0.3963643178410794" mapid="FloorPlan01"/>
+    <userdata latitude="" customnodeid="" copyright="" author="" datetime="09/06/2018 03:24" title="BAILARINA" description="" tags="MAPAS" info="" comment="" longitude="" source="">
+      <mapcoords y="-0.3963643178410794" x_floorplan_percent="91.67916041979011" mapid="FloorPlan01" y_floorplan_percent="36.43410852713178" x="2.578476386806597"/>
     </userdata>
-    <hotspots width="180" wordwrap="1" height="0">
-      <label backgroundalpha="0.5019607843137255" background="1" bordercolor="0x000000" borderradius="1" width="180" wordwrap="1" backgroundcolor="0x808080" borderalpha="1" border="0" textalpha="1" textcolor="0xffffff" enabled="1" height="0"/>
-      <polystyle backgroundalpha="0.1176470588235294" bordercolor="0x00aaff" backgroundcolor="0x0000ff" borderalpha="1" handcursor="1" mode="3"/>
-      <hotspot id="Point03" pan="-247.48" url="{node7}" tilt="-5.59" skinid="ht_node" title="ESPAÇO BAILARINA" description="" target="0.0/0.0/70.0"/>
-      <polyhotspot id="Poly01" url="{node8}" title="ESPAÇO FANTASIA" description="" target="">
+    <hotspots wordwrap="1" height="0" width="180">
+      <label bordercolor="0x000000" backgroundcolor="0x808080" wordwrap="1" enabled="1" borderalpha="1" borderradius="1" height="0" textalpha="1" backgroundalpha="0.5019607843137255" width="180" background="1" textcolor="0xffffff" border="0"/>
+      <polystyle bordercolor="0x00aaff" backgroundcolor="0x0000ff" borderalpha="1" mode="3" handcursor="1" backgroundalpha="0.1176470588235294"/>
+      <hotspot title="ESPAÇO BAILARINA" url="{node7}" description="" skinid="ht_node" target="0.0/0.0/70.0" id="Point03" pan="-247.48" tilt="-5.59"/>
+      <polyhotspot title="ESPAÇO FANTASIA" url="{node8}" description="" target="" id="Poly01">
         <polystring>-109.14/11.18|-120.37/10.31|-120.2/-18.03|-109.48/-19.72</polystring>
       </polyhotspot>
-      <polyhotspot id="Poly02" url="{node5}" title="ESPAÇO BIBLIOTECA" description="" target="95.2/-0.3/70.0">
+      <polyhotspot title="ESPAÇO BIBLIOTECA" url="{node5}" description="" target="95.2/-0.3/70.0" id="Poly02">
         <polystring>-58.04/19.37|-65.15/15.46|-64.62/-26.47|-58.35/-31.92</polystring>
       </polyhotspot>
     </hotspots>
     <media>
-      <sound startmutedmobile="0" field="90.000" id="Element01" pan="-171.130" pansize="10.000" tilt="2.240" nodechangekeep="0" tiltsize="10.000" loop="0" level="0.100" ambientlevel="0.000" mode="6">
+      <sound ambientlevel="0.000" tiltsize="10.000" level="0.100" startmutedmobile="0" mode="6" nodechangekeep="0" pansize="10.000" loop="0" field="90.000" id="Element01" pan="-171.130" tilt="2.240">
         <source url="media/New Morning - TrackTribe.mp3"/>
       </sound>
     </media>
-    <transition blendtime="0.2" zoomin="2" softedge="0" zoomoutpause="0" zoomfov="50" zoomout="2" zoomspeed="2" enabled="1" type="crossdissolve" blendcolor="0x000000"/>
-    <autorotate noderandom="1" nodedelay="0.00" returntohorizon="0.000" startloaded="0" delay="5.00" useanimation="0" enabled="1" speed="0.050"/>
-    <soundstransition crossfade="1" transitiontime="2" enabled="1"/>
+    <transition zoomoutpause="0" softedge="0" enabled="1" zoomout="2" zoomfov="50" type="crossdissolve" zoomin="2" blendcolor="0x000000" zoomspeed="2" blendtime="0.2"/>
+    <autorotate noderandom="1" useanimation="0" enabled="1" startloaded="0" speed="0.050" delay="5.00" returntohorizon="0.000" nodedelay="0.00"/>
+    <soundstransition enabled="1" crossfade="1" transitiontime="2"/>
     <flyintransition enabled="1" speed="2.00"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
-    <control lockedkeyboardzoom="0" rubberband="0" contextprojections="0" simulatemass="1" lockedkeyboard="0" lockedwheel="0" sensitivity="8" dblclickfullscreen="0" invertcontrol="1" contextfullscreen="0" invertwheel="0" lockedmouse="0" hideabout="1" speedwheel="1"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control rubberband="0" lockedwheel="0" lockedmouse="0" invertwheel="0" simulatemass="1" contextprojections="0" dblclickfullscreen="0" lockedkeyboardzoom="0" contextfullscreen="0" speedwheel="1" sensitivity="8" invertcontrol="1" hideabout="1" lockedkeyboard="0"/>
   </panorama>
   <panorama id="node7" hideabout="1">
-    <input overlap="1" levelingpitch="0" levelbias="0.400" leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg" width="1000" levelbiashidpi="1.000" levelingroll="0" leveltilesize="510" height="1000">
-      <level preload="0" width="1000" predecode="0" height="1000"/>
-      <level preload="1" width="500" predecode="1" height="500"/>
-      <preview strip="1" color="0x808080"/>
+    <input levelbias="0.400" overlap="1" leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1000" width="1000" leveltilesize="510" levelbiashidpi="1.000" levelingroll="0" levelingpitch="0">
+      <level preload="1" height="1000" predecode="0" width="1000"/>
+      <level preload="1" height="500" predecode="1" width="500"/>
+      <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="4" fovmode="0">
-      <start pan="-2.23" tilt="0" fov="70" projection="4"/>
-      <flyin pan="0" tilt="-90" fov="170" projection="9"/>
+      <start fov="70" pan="-2.23" projection="4" tilt="0"/>
+      <flyin fov="170" pan="0" projection="9" tilt="-90"/>
       <min fovpixel="2" pan="-360" tilt="-90"/>
-      <max pan="0" scaletofit="1" fovfisheye="360" tilt="90" fovstereographic="270" fov="120"/>
+      <max fov="120" fovstereographic="270" scaletofit="1" pan="0" fovfisheye="360" tilt="90"/>
     </view>
-    <userdata datetime="11/06/2018 15:16" latitude="" copyright="" tags="MAPAS" source="" author="" comment="" info="" title="BAILARINA" description="" longitude="" customnodeid="">
-      <mapcoords x="2.782983508245877" y_floorplan_percent="18.02325581395349" x_floorplan_percent="98.95052473763118" y="-0.1960738380809595" mapid="FloorPlan01"/>
+    <userdata latitude="" customnodeid="" copyright="" author="" datetime="11/06/2018 15:16" title="BAILARINA" description="" tags="MAPAS" info="" comment="" longitude="" source="">
+      <mapcoords y="-0.1960738380809595" x_floorplan_percent="98.95052473763118" mapid="FloorPlan01" y_floorplan_percent="18.02325581395349" x="2.782983508245877"/>
     </userdata>
-    <hotspots width="180" wordwrap="1" height="0">
-      <label backgroundalpha="0.5019607843137255" background="1" bordercolor="0x000000" borderradius="1" width="180" wordwrap="1" backgroundcolor="0x808080" borderalpha="1" border="0" textalpha="1" textcolor="0xffffff" enabled="1" height="0"/>
-      <polystyle backgroundalpha="0.1176470588235294" bordercolor="0x00aaff" backgroundcolor="0x0000ff" borderalpha="1" handcursor="1" mode="3"/>
-      <hotspot id="Point03" pan="-313.32" url="{node6}" tilt="-1.35" skinid="ht_node" title="ESPAÇO BAILARINA" description="" target="-173.5/-1.0/70.0"/>
-      <polyhotspot id="Poly01" url="{node5}" title="ESPAÇO BIBLIOTECA" description="" target="95.6/-0.9/70.0">
+    <hotspots wordwrap="1" height="0" width="180">
+      <label bordercolor="0x000000" backgroundcolor="0x808080" wordwrap="1" enabled="1" borderalpha="1" borderradius="1" height="0" textalpha="1" backgroundalpha="0.5019607843137255" width="180" background="1" textcolor="0xffffff" border="0"/>
+      <polystyle bordercolor="0x00aaff" backgroundcolor="0x0000ff" borderalpha="1" mode="3" handcursor="1" backgroundalpha="0.1176470588235294"/>
+      <hotspot title="ESPAÇO BAILARINA" url="{node6}" description="" skinid="ht_node" target="-173.5/-1.0/70.0" id="Point03" pan="-313.32" tilt="-1.35"/>
+      <polyhotspot title="ESPAÇO BIBLIOTECA" url="{node5}" description="" target="95.6/-0.9/70.0" id="Poly01">
         <polystring>-325.84/8.24|-332.23/6.81|-332.23/-12.32|-325.72/-14.49</polystring>
       </polyhotspot>
-      <polyhotspot id="Poly02" url="{node8}" title="ESPAÇO FANTASIA" description="" target="0.0/0.0/70.0">
+      <polyhotspot title="ESPAÇO FANTASIA" url="{node8}" description="" target="0.0/0.0/70.0" id="Poly02">
         <polystring>-349.51/6.92|-358.77/7.19|-356.14/4.91|-355.98/2.95|-357.95/0.66|-359.92/-0.16|-0.9/-7.68|-349.51/-9.29</polystring>
       </polyhotspot>
     </hotspots>
     <media>
-      <sound startmutedmobile="0" field="90.000" id="Element01" pan="-12.590" pansize="10.000" tilt="-1.940" nodechangekeep="0" tiltsize="10.000" loop="0" level="0.100" ambientlevel="0.000" mode="6">
+      <sound ambientlevel="0.000" tiltsize="10.000" level="0.100" startmutedmobile="0" mode="6" nodechangekeep="0" pansize="10.000" loop="0" field="90.000" id="Element01" pan="-12.590" tilt="-1.940">
         <source url="media/New Morning - TrackTribe.mp3"/>
       </sound>
     </media>
-    <transition blendtime="0.2" zoomin="2" softedge="0" zoomoutpause="0" zoomfov="50" zoomout="2" zoomspeed="2" enabled="1" type="crossdissolve" blendcolor="0x000000"/>
-    <autorotate noderandom="1" nodedelay="0.00" returntohorizon="0.000" startloaded="0" delay="5.00" useanimation="0" enabled="1" speed="0.050"/>
-    <soundstransition crossfade="1" transitiontime="2" enabled="1"/>
+    <transition zoomoutpause="0" softedge="0" enabled="1" zoomout="2" zoomfov="50" type="crossdissolve" zoomin="2" blendcolor="0x000000" zoomspeed="2" blendtime="0.2"/>
+    <autorotate noderandom="1" useanimation="0" enabled="1" startloaded="0" speed="0.050" delay="5.00" returntohorizon="0.000" nodedelay="0.00"/>
+    <soundstransition enabled="1" crossfade="1" transitiontime="2"/>
     <flyintransition enabled="1" speed="2.00"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
-    <control lockedkeyboardzoom="0" rubberband="0" contextprojections="0" simulatemass="1" lockedkeyboard="0" lockedwheel="0" sensitivity="8" dblclickfullscreen="0" invertcontrol="1" contextfullscreen="0" invertwheel="0" lockedmouse="0" hideabout="1" speedwheel="1"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control rubberband="0" lockedwheel="0" lockedmouse="0" invertwheel="0" simulatemass="1" contextprojections="0" dblclickfullscreen="0" lockedkeyboardzoom="0" contextfullscreen="0" speedwheel="1" sensitivity="8" invertcontrol="1" hideabout="1" lockedkeyboard="0"/>
   </panorama>
   <panorama id="node8" hideabout="1">
-    <input overlap="1" levelingpitch="0" levelbias="0.400" leveltileurl="tiles/node8/cf_%c/l_%l/c_%x/tile_%y.jpg" width="1000" levelbiashidpi="1.000" levelingroll="0" leveltilesize="510" height="1000">
-      <level preload="0" width="1000" predecode="0" height="1000"/>
-      <level preload="1" width="500" predecode="1" height="500"/>
-      <preview strip="1" color="0x808080"/>
+    <input levelbias="0.400" overlap="1" leveltileurl="tiles/node8/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1000" width="1000" leveltilesize="510" levelbiashidpi="1.000" levelingroll="0" levelingpitch="0">
+      <level preload="1" height="1000" predecode="0" width="1000"/>
+      <level preload="1" height="500" predecode="1" width="500"/>
+      <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start pan="-5.8" tilt="0" fov="70" projection="4"/>
-      <flyin pan="0" tilt="-90" fov="170" projection="9"/>
+      <start fov="70" pan="-5.8" projection="4" tilt="0"/>
+      <flyin fov="170" pan="0" projection="9" tilt="-90"/>
       <min fovpixel="2" pan="-360" tilt="-90"/>
-      <max pan="0" scaletofit="1" fovfisheye="360" tilt="90" fovstereographic="270" fov="120"/>
+      <max fov="120" fovstereographic="270" scaletofit="1" pan="0" fovfisheye="360" tilt="90"/>
     </view>
-    <userdata datetime="11/06/2018 15:39" latitude="" copyright="" tags="MAPAS" source="" author="" comment="" info="" title="FANTASIA" description="" longitude="" customnodeid="">
-      <mapcoords x="2.224278485757122" y_floorplan_percent="21.89922480620155" x_floorplan_percent="79.08545727136432" y="-0.2382402548725637" mapid="FloorPlan01"/>
+    <userdata latitude="" customnodeid="" copyright="" author="" datetime="11/06/2018 15:39" title="FANTASIA" description="" tags="MAPAS" info="" comment="" longitude="" source="">
+      <mapcoords y="-0.2382402548725637" x_floorplan_percent="79.08545727136432" mapid="FloorPlan01" y_floorplan_percent="21.89922480620155" x="2.224278485757122"/>
     </userdata>
-    <hotspots width="180" wordwrap="1" height="0">
-      <label backgroundalpha="0.5019607843137255" background="1" bordercolor="0x000000" borderradius="1" width="180" wordwrap="1" backgroundcolor="0x808080" borderalpha="1" border="0" textalpha="1" textcolor="0xffffff" enabled="1" height="0"/>
-      <polystyle backgroundalpha="0.1176470588235294" bordercolor="0x00aaff" backgroundcolor="0x0000ff" borderalpha="1" handcursor="1" mode="3"/>
-      <hotspot id="Point01" pan="-5.65" url="{node9}" tilt="-0.65" skinid="ht_node" title="ESPAÇO CAIXA" description="" target="0.0/0.0/70.0"/>
-      <hotspot id="Point02" pan="-255.07" url="https://www.caracolchocolates.com.br/product-page/mini-cakes" tilt="5.26" skinid="ht_url" title="Mini Cakes" description="" target="_blank"/>
-      <polyhotspot id="Poly01" url="{node6}" title="ESPAÇO BAILARINA" description="" target="-141.8/-0.5/70.0">
+    <hotspots wordwrap="1" height="0" width="180">
+      <label bordercolor="0x000000" backgroundcolor="0x808080" wordwrap="1" enabled="1" borderalpha="1" borderradius="1" height="0" textalpha="1" backgroundalpha="0.5019607843137255" width="180" background="1" textcolor="0xffffff" border="0"/>
+      <polystyle bordercolor="0x00aaff" backgroundcolor="0x0000ff" borderalpha="1" mode="3" handcursor="1" backgroundalpha="0.1176470588235294"/>
+      <hotspot title="ESPAÇO CAIXA" url="{node9}" description="" skinid="ht_node" target="0.0/0.0/70.0" id="Point01" pan="-5.65" tilt="-0.65"/>
+      <hotspot title="Mini Cakes" url="https://www.caracolchocolates.com.br/product-page/mini-cakes" description="" skinid="ht_url" target="_blank" id="Point02" pan="-255.07" tilt="5.26"/>
+      <polyhotspot title="ESPAÇO BAILARINA" url="{node6}" description="" target="-141.8/-0.5/70.0" id="Poly01">
         <polystring>-151.59/15.2|-178.99/17.29|-178.78/-41.39|-151.2/-37.37</polystring>
       </polyhotspot>
     </hotspots>
     <media>
-      <sound startmutedmobile="0" field="90.000" id="Element01" pan="-340.190" pansize="10.000" tilt="-1.340" nodechangekeep="0" tiltsize="10.000" loop="0" level="0.100" ambientlevel="0.000" mode="6">
+      <sound ambientlevel="0.000" tiltsize="10.000" level="0.100" startmutedmobile="0" mode="6" nodechangekeep="0" pansize="10.000" loop="0" field="90.000" id="Element01" pan="-340.190" tilt="-1.340">
         <source url="media/Jigsaw Puzzle - The Green Orbs.mp3"/>
       </sound>
     </media>
-    <transition blendtime="0.2" zoomin="2" softedge="0" zoomoutpause="0" zoomfov="50" zoomout="2" zoomspeed="2" enabled="1" type="crossdissolve" blendcolor="0x000000"/>
-    <autorotate noderandom="1" nodedelay="0.00" returntohorizon="0.000" startloaded="0" delay="5.00" useanimation="0" enabled="1" speed="0.050"/>
-    <soundstransition crossfade="1" transitiontime="2" enabled="1"/>
+    <transition zoomoutpause="0" softedge="0" enabled="1" zoomout="2" zoomfov="50" type="crossdissolve" zoomin="2" blendcolor="0x000000" zoomspeed="2" blendtime="0.2"/>
+    <autorotate noderandom="1" useanimation="0" enabled="1" startloaded="0" speed="0.050" delay="5.00" returntohorizon="0.000" nodedelay="0.00"/>
+    <soundstransition enabled="1" crossfade="1" transitiontime="2"/>
     <flyintransition enabled="1" speed="2.00"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
-    <control lockedkeyboardzoom="0" rubberband="0" contextprojections="0" simulatemass="1" lockedkeyboard="0" lockedwheel="0" sensitivity="8" dblclickfullscreen="0" invertcontrol="1" contextfullscreen="0" invertwheel="0" lockedmouse="0" hideabout="1" speedwheel="1"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control rubberband="0" lockedwheel="0" lockedmouse="0" invertwheel="0" simulatemass="1" contextprojections="0" dblclickfullscreen="0" lockedkeyboardzoom="0" contextfullscreen="0" speedwheel="1" sensitivity="8" invertcontrol="1" hideabout="1" lockedkeyboard="0"/>
   </panorama>
   <panorama id="node9" hideabout="1">
-    <input overlap="1" levelingpitch="0" levelbias="0.400" leveltileurl="tiles/node9/cf_%c/l_%l/c_%x/tile_%y.jpg" width="1000" levelbiashidpi="1.000" levelingroll="0" leveltilesize="510" height="1000">
-      <level preload="0" width="1000" predecode="0" height="1000"/>
-      <level preload="1" width="500" predecode="1" height="500"/>
-      <preview strip="1" color="0x808080"/>
+    <input levelbias="0.400" overlap="1" leveltileurl="tiles/node9/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1000" width="1000" leveltilesize="510" levelbiashidpi="1.000" levelingroll="0" levelingpitch="0">
+      <level preload="1" height="1000" predecode="0" width="1000"/>
+      <level preload="1" height="500" predecode="1" width="500"/>
+      <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="5" fovmode="0">
-      <start pan="-0.37" tilt="0" fov="70" projection="4"/>
-      <flyin pan="0" tilt="-90" fov="170" projection="9"/>
+      <start fov="70" pan="-0.37" projection="4" tilt="0"/>
+      <flyin fov="170" pan="0" projection="9" tilt="-90"/>
       <min fovpixel="2" pan="-360" tilt="-90"/>
-      <max pan="0" scaletofit="1" fovfisheye="360" tilt="90" fovstereographic="270" fov="120"/>
+      <max fov="120" fovstereographic="270" scaletofit="1" pan="0" fovfisheye="360" tilt="90"/>
     </view>
-    <userdata datetime="11/06/2018 16:01" latitude="" copyright="" tags="MAPAS" source="" author="" comment="" info="" title="CAIXA" description="" longitude="" customnodeid="">
-      <mapcoords x="0.9276611694152924" y_floorplan_percent="17.24806201550388" x_floorplan_percent="32.98350824587706" y="-0.1876405547226387" mapid="FloorPlan01"/>
+    <userdata latitude="" customnodeid="" copyright="" author="" datetime="11/06/2018 16:01" title="CAIXA" description="" tags="MAPAS" info="" comment="" longitude="" source="">
+      <mapcoords y="-0.1876405547226387" x_floorplan_percent="32.98350824587706" mapid="FloorPlan01" y_floorplan_percent="17.24806201550388" x="0.9276611694152924"/>
     </userdata>
-    <hotspots width="180" wordwrap="1" height="0">
-      <label backgroundalpha="0.5019607843137255" background="1" bordercolor="0x000000" borderradius="1" width="180" wordwrap="1" backgroundcolor="0x808080" borderalpha="1" border="0" textalpha="1" textcolor="0xffffff" enabled="1" height="0"/>
-      <polystyle backgroundalpha="0.1176470588235294" bordercolor="0x00aaff" backgroundcolor="0x0000ff" borderalpha="1" handcursor="1" mode="3"/>
-      <hotspot id="Point02" pan="-191.62" url="{node8}" tilt="1.03" skinid="ht_node" title="ESPAÇO FANTASIA" description="" target=""/>
-      <hotspot id="Point01" pan="-125.23" url="https://www.caracolchocolates.com.br/product-page/chocopizza" tilt="-26.71" skinid="ht_url" title="Chocopizza" description="" target="_blank"/>
-      <polyhotspot id="Poly01" url="{node10}" title="ESPAÇO CARROSSEL" description="" target="23.5/-0.5/70.0">
+    <hotspots wordwrap="1" height="0" width="180">
+      <label bordercolor="0x000000" backgroundcolor="0x808080" wordwrap="1" enabled="1" borderalpha="1" borderradius="1" height="0" textalpha="1" backgroundalpha="0.5019607843137255" width="180" background="1" textcolor="0xffffff" border="0"/>
+      <polystyle bordercolor="0x00aaff" backgroundcolor="0x0000ff" borderalpha="1" mode="3" handcursor="1" backgroundalpha="0.1176470588235294"/>
+      <hotspot title="ESPAÇO FANTASIA" url="{node8}" description="" skinid="ht_node" target="" id="Point02" pan="-191.62" tilt="1.03"/>
+      <hotspot title="Chocopizza" url="https://www.caracolchocolates.com.br/product-page/chocopizza" description="" skinid="ht_url" target="_blank" id="Point01" pan="-125.23" tilt="-26.71"/>
+      <polyhotspot title="ESPAÇO CARROSSEL" url="{node10}" description="" target="23.5/-0.5/70.0" id="Poly01">
         <polystring>-275.16/44.82|-278.41/24.7|-282.9/3.74|-288.61/-16.67|-299.33/-28.15|-294.52/-34.29|-293.73/-40.57|-256.21/-41.99|-253.2/-34.71|-249.28/-29.54|-255.44/-24.43|-262.46/-13.06|-267.44/5.07|-271.18/23.82</polystring>
       </polyhotspot>
-      <polyhotspot id="Poly02" url="{node7}" title="ESPAÇO BAILARINA" description="" target="18.2/0.1/70.0">
+      <polyhotspot title="ESPAÇO BAILARINA" url="{node7}" description="" target="18.2/0.1/70.0" id="Poly02">
         <polystring>-178.04/3.21|-182.31/2.98|-182.42/-6.55|-178.19/-6.83</polystring>
       </polyhotspot>
     </hotspots>
     <media>
-      <sound startmutedmobile="0" field="90.000" id="Element01" pan="323.660" pansize="10.000" tilt="1.330" nodechangekeep="0" tiltsize="10.000" loop="0" level="0.100" ambientlevel="0.000" mode="6">
+      <sound ambientlevel="0.000" tiltsize="10.000" level="0.100" startmutedmobile="0" mode="6" nodechangekeep="0" pansize="10.000" loop="0" field="90.000" id="Element01" pan="323.660" tilt="1.330">
         <source url="media/New Morning - TrackTribe.mp3"/>
       </sound>
     </media>
-    <transition blendtime="0.2" zoomin="2" softedge="0" zoomoutpause="0" zoomfov="50" zoomout="2" zoomspeed="2" enabled="1" type="crossdissolve" blendcolor="0x000000"/>
-    <autorotate noderandom="1" nodedelay="0.00" returntohorizon="0.000" startloaded="0" delay="5.00" useanimation="0" enabled="1" speed="0.050"/>
-    <soundstransition crossfade="1" transitiontime="2" enabled="1"/>
+    <transition zoomoutpause="0" softedge="0" enabled="1" zoomout="2" zoomfov="50" type="crossdissolve" zoomin="2" blendcolor="0x000000" zoomspeed="2" blendtime="0.2"/>
+    <autorotate noderandom="1" useanimation="0" enabled="1" startloaded="0" speed="0.050" delay="5.00" returntohorizon="0.000" nodedelay="0.00"/>
+    <soundstransition enabled="1" crossfade="1" transitiontime="2"/>
     <flyintransition enabled="1" speed="2.00"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
-    <control lockedkeyboardzoom="0" rubberband="0" contextprojections="0" simulatemass="1" lockedkeyboard="0" lockedwheel="0" sensitivity="8" dblclickfullscreen="0" invertcontrol="1" contextfullscreen="0" invertwheel="0" lockedmouse="0" hideabout="1" speedwheel="1"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control rubberband="0" lockedwheel="0" lockedmouse="0" invertwheel="0" simulatemass="1" contextprojections="0" dblclickfullscreen="0" lockedkeyboardzoom="0" contextfullscreen="0" speedwheel="1" sensitivity="8" invertcontrol="1" hideabout="1" lockedkeyboard="0"/>
   </panorama>
   <panorama id="node10" hideabout="1">
-    <input overlap="1" levelingpitch="0" levelbias="0.400" leveltileurl="tiles/node10/cf_%c/l_%l/c_%x/tile_%y.jpg" width="1000" levelbiashidpi="1.000" levelingroll="0" leveltilesize="510" height="1000">
-      <level preload="0" width="1000" predecode="0" height="1000"/>
-      <level preload="1" width="500" predecode="1" height="500"/>
-      <preview strip="1" color="0x808080"/>
+    <input levelbias="0.400" overlap="1" leveltileurl="tiles/node10/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1000" width="1000" leveltilesize="510" levelbiashidpi="1.000" levelingroll="0" levelingpitch="0">
+      <level preload="1" height="1000" predecode="0" width="1000"/>
+      <level preload="1" height="500" predecode="1" width="500"/>
+      <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start pan="135" tilt="0" fov="70" projection="4"/>
-      <flyin pan="0" tilt="-90" fov="170" projection="9"/>
+      <start fov="70" pan="135" projection="4" tilt="0"/>
+      <flyin fov="170" pan="0" projection="9" tilt="-90"/>
       <min fovpixel="2" pan="0" tilt="-90"/>
-      <max pan="360" scaletofit="1" fovfisheye="360" tilt="90" fovstereographic="270" fov="120"/>
+      <max fov="120" fovstereographic="270" scaletofit="1" pan="360" fovfisheye="360" tilt="90"/>
     </view>
-    <userdata datetime="09/06/2018 01:02" latitude="" copyright="" tags="MAPAS" source="" author="" comment="" info="" title="DESCOMPRESSÃO" description="" longitude="" customnodeid=""/>
-    <hotspots width="180" wordwrap="1" height="0">
-      <label backgroundalpha="0.5019607843137255" background="1" bordercolor="0x000000" borderradius="1" width="180" wordwrap="1" backgroundcolor="0x808080" borderalpha="1" border="0" textalpha="1" textcolor="0xffffff" enabled="1" height="0"/>
-      <polystyle backgroundalpha="0.1176470588235294" bordercolor="0x00aaff" backgroundcolor="0x0000ff" borderalpha="1" handcursor="1" mode="3"/>
-      <polyhotspot id="Poly01" url="{node9}" title="ESPAÇO CAIXA" description="" target="86.3/-1.6/70.0">
+    <userdata latitude="" customnodeid="" copyright="" author="" datetime="09/06/2018 01:02" title="DESCOMPRESSÃO" description="" tags="MAPAS" info="" comment="" longitude="" source=""/>
+    <hotspots wordwrap="1" height="0" width="180">
+      <label bordercolor="0x000000" backgroundcolor="0x808080" wordwrap="1" enabled="1" borderalpha="1" borderradius="1" height="0" textalpha="1" backgroundalpha="0.5019607843137255" width="180" background="1" textcolor="0xffffff" border="0"/>
+      <polystyle bordercolor="0x00aaff" backgroundcolor="0x0000ff" borderalpha="1" mode="3" handcursor="1" backgroundalpha="0.1176470588235294"/>
+      <polyhotspot title="ESPAÇO CAIXA" url="{node9}" description="" target="86.3/-1.6/70.0" id="Poly01">
         <polystring>-199.86/-35.14|-228.56/-38.02|-230.27/-33.44|-234.29/-27.89|-229.32/-22.89|-223.41/-13.87|-216.48/17.38|-213.72/28.68|-211.17/16.92|-206.18/-6.78|-200.64/-19.96|-195.24/-25.36|-198.02/-30.48</polystring>
       </polyhotspot>
-      <polyhotspot id="Poly02" url="{node3}" title="ESPAÇO MERCADO CARACOL" description="" target="">
+      <polyhotspot title="ESPAÇO MERCADO CARACOL" url="{node3}" description="" target="" id="Poly02">
         <polystring>-317.89/-19.94|-335.71/-19.39|-336.53/-15.83|-339.65/-12.89|-338.91/-8.79|-344.14/-7.39|-341.94/-3.75|-342.27/2.63|-342.92/7.17|-341.29/8.16|-317.83/8.51</polystring>
       </polyhotspot>
-      <polyhotspot id="Poly03" url="{node1}" title="ESPAÇO DESCOMPRESSÃO" description="" target="89.5/0.1/70.0">
+      <polyhotspot title="ESPAÇO DESCOMPRESSÃO" url="{node1}" description="" target="89.5/0.1/70.0" id="Poly03">
         <polystring>-186.34/13.84|-185.6/-34.45|-82.14/-32.76|-82.35/13.03</polystring>
       </polyhotspot>
-      <hotspot id="Point01" pan="-61.96" url="https://www.caracolchocolates.com.br/product-page/divinos-300g-1" tilt="-2.96" skinid="ht_url" title="Divinos 300g" description="" target="_blank"/>
+      <hotspot title="Divinos 300g" url="https://www.caracolchocolates.com.br/product-page/divinos-300g-1" description="" skinid="ht_url" target="_blank" id="Point01" pan="-61.96" tilt="-2.96"/>
     </hotspots>
     <media>
-      <sound startmutedmobile="0" field="90.000" id="Element01" pan="-4.840" pansize="10.000" tilt="1.470" nodechangekeep="0" tiltsize="10.000" loop="0" level="0.100" ambientlevel="0.000" mode="6">
+      <sound ambientlevel="0.000" tiltsize="10.000" level="0.100" startmutedmobile="0" mode="6" nodechangekeep="0" pansize="10.000" loop="0" field="90.000" id="Element01" pan="-4.840" tilt="1.470">
         <source url="media/Springtime Family Band - The Green Orbs.mp3"/>
       </sound>
     </media>
-    <transition blendtime="0.2" zoomin="2" softedge="0" zoomoutpause="0" zoomfov="50" zoomout="2" zoomspeed="2" enabled="1" type="crossdissolve" blendcolor="0x000000"/>
-    <autorotate noderandom="1" nodedelay="0.00" returntohorizon="0.000" startloaded="0" delay="5.00" useanimation="0" enabled="1" speed="0.050"/>
-    <soundstransition crossfade="1" transitiontime="2" enabled="1"/>
+    <transition zoomoutpause="0" softedge="0" enabled="1" zoomout="2" zoomfov="50" type="crossdissolve" zoomin="2" blendcolor="0x000000" zoomspeed="2" blendtime="0.2"/>
+    <autorotate noderandom="1" useanimation="0" enabled="1" startloaded="0" speed="0.050" delay="5.00" returntohorizon="0.000" nodedelay="0.00"/>
+    <soundstransition enabled="1" crossfade="1" transitiontime="2"/>
     <flyintransition enabled="1" speed="2.00"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
-    <control lockedkeyboardzoom="0" rubberband="0" contextprojections="0" simulatemass="1" lockedkeyboard="0" lockedwheel="0" sensitivity="8" dblclickfullscreen="0" invertcontrol="1" contextfullscreen="0" invertwheel="0" lockedmouse="0" hideabout="1" speedwheel="1"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control rubberband="0" lockedwheel="0" lockedmouse="0" invertwheel="0" simulatemass="1" contextprojections="0" dblclickfullscreen="0" lockedkeyboardzoom="0" contextfullscreen="0" speedwheel="1" sensitivity="8" invertcontrol="1" hideabout="1" lockedkeyboard="0"/>
   </panorama>
   <masternode>
-    <userdata datetime="" latitude="" copyright="" tags="" source="" author="" comment="" info="" title="" description="" longitude="" customnodeid=""/>
+    <userdata latitude="" customnodeid="" copyright="" author="" datetime="" title="" description="" tags="" info="" comment="" longitude="" source=""/>
   </masternode>
-  <map tileformat="jpg" id="FloorPlan01" width="1334" transparent="0" zoomlevels="1" bgcolor="rgba(255, 255, 255, 1)" floorplannorth="264.66" title="" height="516" type="file"/>
+  <map zoomlevels="1" title="" tileformat="jpg" bgcolor="rgba(255, 255, 255, 1)" height="516" floorplannorth="264.66" type="file" width="1334" id="FloorPlan01" transparent="0"/>
 </tour>
