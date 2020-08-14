@@ -23,7 +23,7 @@
       </polyhotspot>
     </hotspots>
     <media>
-      <sound loop="1" pansize="10.000" id="Element01" field="90.000" tiltsize="10.000" tilt="-5.770" nodechangekeep="0" pan="-280.660" startmutedmobile="0" level="1.000" mode="2" ambientlevel="0.000">
+      <sound loop="0" pansize="10.000" id="Element01" field="90.000" tiltsize="10.000" tilt="-5.770" nodechangekeep="0" pan="-280.660" startmutedmobile="0" level="0.200" mode="1" ambientlevel="0.000">
         <source url="media/newmorning-tracktribe.mp3"/>
       </sound>
     </media>
@@ -61,7 +61,7 @@
       <hotspot id="Point01" skinid="ht_url" url="https://www.caracolchocolates.com.br/product-page/divinos-300g-1" title="Divinos 300g" description="" tilt="-2.54" pan="-62.08" target="_blank"/>
     </hotspots>
     <media>
-      <sound loop="0" pansize="10.000" id="Element01" field="90.000" tiltsize="10.000" tilt="-1.910" nodechangekeep="0" pan="-4.010" startmutedmobile="0" level="0.100" mode="1" ambientlevel="0.000">
+      <sound loop="0" pansize="10.000" id="Element01" field="90.000" tiltsize="10.000" tilt="-1.910" nodechangekeep="0" pan="-4.010" startmutedmobile="0" level="0.200" mode="1" ambientlevel="0.000">
         <source url="media/springtimefamilyband-thegreenorbs.mp3"/>
       </sound>
     </media>
@@ -99,7 +99,7 @@
       <hotspot id="Point01" skinid="ht_url" url="https://www.caracolchocolates.com.br/product-page/alfajor" title="Alfajor" description="" tilt="-19.18" pan="-264.55" target="_blank"/>
     </hotspots>
     <media>
-      <sound loop="0" pansize="10.000" id="Element01" field="90.000" tiltsize="10.000" tilt="2.250" nodechangekeep="0" pan="-266.870" startmutedmobile="0" level="0.100" mode="6" ambientlevel="0.000">
+      <sound loop="0" pansize="10.000" id="Element01" field="90.000" tiltsize="10.000" tilt="2.250" nodechangekeep="0" pan="-266.870" startmutedmobile="0" level="0.200" mode="1" ambientlevel="0.000">
         <source url="media/jigsawPuzzle-thegreenorbs.mp3"/>
       </sound>
     </media>
@@ -138,10 +138,10 @@
       </polyhotspot>
     </hotspots>
     <media>
-      <sound loop="0" pansize="10.000" id="Element01" field="90.000" tiltsize="10.000" tilt="-2.660" nodechangekeep="0" pan="-6.780" startmutedmobile="0" level="0.100" mode="6" ambientlevel="0.000">
+      <sound loop="0" pansize="10.000" id="Element01" field="90.000" tiltsize="10.000" tilt="-2.660" nodechangekeep="0" pan="-6.780" startmutedmobile="0" level="0.200" mode="1" ambientlevel="0.000">
         <source url="media/risingsun-divkid.mp3"/>
       </sound>
-      <video stretch="1.350" loop="0" height="720" rotz="2.000" level="0.250" field="90.000" pan="-56.110" tiltsize="10.000" pansize="10.000" startmutedmobile="0" clickmode="0" roty="28.000" rotx="0.000" ambientlevel="0.000" handcursor="0" mode="5" fov="6.460" id="Element02" nodechangekeep="0" tilt="-5.020" width="1280">
+      <video stretch="1.350" loop="0" height="720" rotz="2.000" level="0.250" field="90.000" pan="-56.110" tiltsize="10.000" pansize="10.000" startmutedmobile="0" clickmode="0" roty="28.000" rotx="0.000" ambientlevel="0.000" handcursor="0" mode="1" fov="6.460" id="Element02" nodechangekeep="0" tilt="-5.020" width="1280">
         <source url="media/submarinocaracolchocolates.mp4"/>
       </video>
     </media>
@@ -179,7 +179,7 @@
       </polyhotspot>
     </hotspots>
     <media>
-      <sound loop="0" pansize="10.000" id="Element01" field="90.000" tiltsize="10.000" tilt="-1.320" nodechangekeep="0" pan="-251.060" startmutedmobile="0" level="0.100" mode="6" ambientlevel="0.000">
+      <sound loop="0" pansize="10.000" id="Element01" field="90.000" tiltsize="10.000" tilt="-1.320" nodechangekeep="0" pan="-251.060" startmutedmobile="0" level="0.200" mode="1" ambientlevel="0.000">
         <source url="media/risingsun-divkid.mp3"/>
       </sound>
       <video stretch="1.450" loop="0" height="720" rotz="-2.000" level="0.200" field="90.000" pan="-165.100" tiltsize="10.000" pansize="10.000" startmutedmobile="0" clickmode="0" roty="-16.000" rotx="0.000" ambientlevel="0.000" handcursor="0" mode="1" fov="12.170" id="Element02" nodechangekeep="0" tilt="-10.030" width="1280">
@@ -220,7 +220,7 @@
       </polyhotspot>
     </hotspots>
     <media>
-      <sound loop="0" pansize="10.000" id="Element01" field="90.000" tiltsize="10.000" tilt="2.240" nodechangekeep="0" pan="-171.130" startmutedmobile="0" level="0.100" mode="6" ambientlevel="0.000">
+      <sound loop="0" pansize="10.000" id="Element01" field="90.000" tiltsize="10.000" tilt="2.240" nodechangekeep="0" pan="-171.130" startmutedmobile="0" level="0.200" mode="1" ambientlevel="0.000">
         <source url="media/newmorning-tracktribe.mp3"/>
       </sound>
     </media>
@@ -258,7 +258,7 @@
       </polyhotspot>
     </hotspots>
     <media>
-      <sound loop="0" pansize="10.000" id="Element01" field="90.000" tiltsize="10.000" tilt="-1.940" nodechangekeep="0" pan="-12.590" startmutedmobile="0" level="0.100" mode="6" ambientlevel="0.000">
+      <sound loop="0" pansize="10.000" id="Element01" field="90.000" tiltsize="10.000" tilt="-1.940" nodechangekeep="0" pan="-12.590" startmutedmobile="0" level="0.200" mode="1" ambientlevel="0.000">
         <source url="media/newmorning-tracktribe.mp3"/>
       </sound>
     </media>
@@ -294,7 +294,7 @@
       </polyhotspot>
     </hotspots>
     <media>
-      <sound loop="0" pansize="10.000" id="Element01" field="90.000" tiltsize="10.000" tilt="-1.340" nodechangekeep="0" pan="-340.190" startmutedmobile="0" level="0.100" mode="6" ambientlevel="0.000">
+      <sound loop="0" pansize="10.000" id="Element01" field="90.000" tiltsize="10.000" tilt="-1.340" nodechangekeep="0" pan="-340.190" startmutedmobile="0" level="0.200" mode="1" ambientlevel="0.000">
         <source url="media/jigsawPuzzle-thegreenorbs.mp3"/>
       </sound>
     </media>
@@ -333,7 +333,7 @@
       </polyhotspot>
     </hotspots>
     <media>
-      <sound loop="0" pansize="10.000" id="Element01" field="90.000" tiltsize="10.000" tilt="1.330" nodechangekeep="0" pan="323.660" startmutedmobile="0" level="0.100" mode="6" ambientlevel="0.000">
+      <sound loop="0" pansize="10.000" id="Element01" field="90.000" tiltsize="10.000" tilt="1.330" nodechangekeep="0" pan="323.660" startmutedmobile="0" level="0.200" mode="1" ambientlevel="0.000">
         <source url="media/newmorning-tracktribe.mp3"/>
       </sound>
     </media>
@@ -372,7 +372,7 @@
       <hotspot id="Point01" skinid="ht_url" url="https://www.caracolchocolates.com.br/product-page/divinos-300g-1" title="Divinos 300g" description="" tilt="-2.96" pan="-61.96" target="_blank"/>
     </hotspots>
     <media>
-      <sound loop="0" pansize="10.000" id="Element01" field="90.000" tiltsize="10.000" tilt="1.470" nodechangekeep="0" pan="-4.840" startmutedmobile="0" level="0.100" mode="6" ambientlevel="0.000">
+      <sound loop="0" pansize="10.000" id="Element01" field="90.000" tiltsize="10.000" tilt="1.470" nodechangekeep="0" pan="-4.840" startmutedmobile="0" level="0.200" mode="1" ambientlevel="0.000">
         <source url="media/springtimefamilyband-thegreenorbs.mp3"/>
       </sound>
     </media>
