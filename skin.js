@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 6.0.2/17253
 // Filename: silhouette_cardboard_celular.ggsk
-// Generated sex ago 14 16:44:43 2020
+// Generated sex ago 14 18:33:13 2020
 
 function pano2vrSkin(player,base) {
 	player.addVariable('ht_ani', 2, false);
@@ -2704,8 +2704,6 @@ function pano2vrSkin(player,base) {
 		}
 		me._gyro.appendChild(me._gyro_off);
 		me.divSkin.appendChild(me._gyro);
-		player.activateSound("Element01","1");
-		player.activateSound("Element02","1");
 		me._map_1.ggMarkerInstances=[];
 		me._map_1.ggMapId = 'FloorPlan01';
 		me._map_1.ggLastNodeId=null;
